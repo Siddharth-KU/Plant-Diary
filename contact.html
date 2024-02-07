@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="contact.js"></script>
+  <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("ebfi5ShsIv-VUipgN");
+   })();
+</script>
+</head>
+<body>
+
+  <div>
+    <ul id="navbar">
+      <div class="nav">
+        <li><a href=""><img src="https://webstockreview.net/images/shop-clipart-tienda-9.png" height="70px" alt=""></a></li>
+        <div class="nav-part-2">
+      <li><a class="active" href="Home.html"><h4>Home</h4></a></li>
+      <li><a href="Contact.html"><h4>Contact</h4></a></li>
+      <!-- <li><a href="About.html"><h4>About</h4></a></li> -->
+      <li><a href="Shop.html"><h4>Fashion</h4></a></li>
+      <!-- <li><h4><a class="ri-shopping-cart-line"></a></h4><a href="cart.html"></a></li> -->
+      <li><a href="cart.html"><h4>Munchies Market</h4></a></li>
+      <!-- <h4><i class="ri-menu-3-fill"></i></h4> -->
+      <i class="ri-menu-3-fill"></i>
+    </div>
+    </div>
+  </ul>
+</div>
+  <div class="mid">
+  <container class="border mt-3 bg-light">
+    <div class="row" style="background-image: url(https://store-images.s-microsoft.com/image/apps.62416.14371825410523561.5c9469d8-ac8d-4963-98c3-9fc24e43bdbe.4de4a4a6-4bd1-486e-808e-9fc129de815d?mode=scale&q=90&h=1080&w=1920);">
+      <!-- <div class="col-md-6 p-5 bg-primary text-white">
+        <h1>Hi there!</h1>
+        <h4></h4>
+      </div> -->
+      <div class="col-md-6py-3" style="margin: 300px 657px;">
+        <h1>Contact form</h1>
+        <div class="form-group">
+          <h5 for="name">Name</h5>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+          <h5 for="email">Email</h5>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+          <h5 for="message">Message</h5>
+          <textarea id="message" rows="3" class="form-control"></textarea>
+        </div>
+        <button class="btn btn-primary " onclick="sendMail()">Submit</button>
+      </div>
+    </div>
+  </container>
+</div>
+</body>
+</html>

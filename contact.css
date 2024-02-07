@@ -1,0 +1,70 @@
+
+.nav{
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  border-bottom: 2px solid #dadada;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3vw;
+}
+.nav-part-2{
+  display: flex;
+  align-items: center;
+  /* background-color: blue; */
+  gap:2vw;
+}
+.nav h2{
+  font-size: 2vw;
+  font-weight: 700;
+}
+.nav h4{
+  font-size: 3vh;
+}
+.nav i{
+  font-size: 3vw;
+  flex-wrap: 800;
+  display: none;
+}
+.content{
+  height: calc(100% - 100px);
+  width: 100%;
+}
+.ri-shopping-cart-line:before {
+  font-size: 3vw;
+}
+@media (max-width:1000px) {
+  .nav{
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 0 5vw;
+  }
+  .nav h2{
+    font-size: 6vw;
+  }
+  .nav h4{
+    font-size: 4vw;
+    display: none;
+  }
+  .nav i{
+    display: block ;
+    font-size: 6vw;
+  }
+  .nav li a{
+    display: block;
+    width: fit-content;
+    margin: 80px auto 0 auto;
+  }
+.mid border mt-3 bg-light row{
+ height: 100%;
+}
+.col-md-6py-3{
+  margin: 271px 664px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+}
