@@ -191,8 +191,8 @@ hr {
 }
 
 #hero{
-  background-image: url(https://www.dmarge.com/wp-content/uploads/2015/06/how-to-look-stylish.jpg);
-  height: 60vh;
+  background-image:url(bg.jpg);
+  height: 70vh;
   width: 100%;
   background-size:cover;
   background-position: top 25% right -17%;
@@ -206,12 +206,12 @@ hr {
   padding-bottom: 15px;
 }
 #hero h1{
-  color: #088178;
+  color: #0c9282;
 }
 #hero button{
   background-image: url(https://www.downloadclipart.net/large/brush-stroke-transparent-background.png);
   background-color: transparent;
-  color: #088178;
+  color: #02251f;
   border: 0;
   padding: 14px 80px 14px 65px;
   cursor: pointer;
